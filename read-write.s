@@ -6,7 +6,7 @@ _start:
 	# read 15 bytes
 mov rax, 0
 mov rdi, 0
-mov rsi, rsp 
+mov rsi, rsp  
 mov rdx, 15
 syscall
 
